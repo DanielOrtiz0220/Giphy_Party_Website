@@ -2,6 +2,26 @@
     font-family: sans-serif;
     /* outline: solid red; */
 }
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.Results{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex: 300px;
+    height: 100px;
+}
 .box {
 
     display: flex;
@@ -12,22 +32,20 @@
 }
 .box>* {
     flex: 1 1 300px;
+    margin: 10%;
     
 }
 
-.Results{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-    flex: 300px;
-    height: 200px;
-}
-
-img{
+    img{
     max-width: 100%;
     align-items: space-evenly;
+    }
+
+    h1,
+    form{
+    display: flex;
+    justify-content: center;
+
 }
 
 
