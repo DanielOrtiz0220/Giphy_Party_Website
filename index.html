@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy Party</title>
+    <link rel="stylesheet" href="style.css" media="print">
+</head>
+
+
+
+<body>
+    <h1>Giphy Party Time!</h1>
+
+    <form>
+        
+        <div>
+            <label for="gName">Gif name:</label>
+
+            <input type="text" id="gName" placeholder="Puppy">
+
+            <button id = 'gifBtn' type = "submit" onclick = "getResults(0)">Search for Gif</button>
+
+            <button id = 'loadMoreGifs' onclick="getResults(1)" hidden>MORE!!!</button>
+        </div>
+
+
+
+    </form>
+
+    <div class = "Results">
+
+        
+
+    </div>
+
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</body>
+</html>
